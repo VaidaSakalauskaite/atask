@@ -1,0 +1,49 @@
+footer {
+  .footer-main{
+    width:100%;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    background: #161616;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .column{
+      width: 25%;
+      float: left;
+      text-align: left;
+      color: white;
+      line-height: 1.5;
+      margin: auto;
+      font-size: 14px;
+      h3{
+        color: $color-main;
+        padding-bottom: 40px;
+        font-size: 15px;
+      }
+      p{
+        width: 80%;
+      }
+      a:hover{
+        color:$color-main;
+      }
+      .fa-chevron-right{
+        padding: 2px 5px;
+        color: $color-main;
+        font-size:10px;
+      }
+      .faclm {
+        padding: 2px 5px;
+        color: $color-main;
+        font-size:10px;
+      }
+    }
+  }
+}
+.footer-bottom{
+  width: 100%;
+  background: black;
+  color:white;text-align: center;
+  font-size: 13px;
+  height: 83px;
+  line-height: 83px;
+}
