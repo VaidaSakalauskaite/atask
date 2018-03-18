@@ -3,7 +3,6 @@ header {
     color: $text-color;
     height: 50px;
     width: 100%;
-    // border-bottom: 2px solid lightgrey;
     line-height: 50px;
     box-shadow: 0 1px 5px grey;
     font-size: 14px;
@@ -79,11 +78,10 @@ header {
       }
     }
     img {
-      margin-top:27px;
       float: left;
-      background: #e0ebeb;
-      height: 100px;
-      width: 290px;
+      height: 150px;
+      width: auto;
+      background-size: cover;
     }
   }
 }

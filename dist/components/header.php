@@ -19,7 +19,8 @@
  </div>
  <div class="bottom-menu">
    <div class="container">
-     <img src="" alt=""Constration>
+    <img src="img/logo.png" alt="">
+     <!-- <div class="logo" alt="Constration"></div> -->
      <nav>
        <ul>
          <li> <a href="index.php">HOME</a></li>

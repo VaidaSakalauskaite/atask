@@ -1,4 +1,10 @@
 <footer>
+  <div class="getintouch">
+    <div class="container">
+      <h2>GO AHEAD AND FIND OUT HOW WE CAN HELP YOU!</h2>
+      <button class="btntouch">GET IN TOUCH!</button>
+    </div>
+  </div>
   <div class="footer-main">
     <div class="container">
       <div class="aboutUs column" >
@@ -37,6 +43,4 @@
       </div>
     </div>
 </footer>
-<div class="footer-bottom">
-  <p>Made with 💚 by Revolthemes.net All Rights Reserved</p>
-</div>
+<script src="js/script.js"></script>

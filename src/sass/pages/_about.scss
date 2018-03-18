@@ -1,0 +1,253 @@
+section.about-us {
+  background:$color-main;
+  @include shadow;
+  .container{
+    .about-us-header{
+      font-size: 14px;
+      color: $text-color;
+      line-height: 67px;
+      display: flex;
+      justify-content: space-between;
+      h2{
+        color: white;
+      }
+      .nav-path{
+        a:hover {
+         color: white;
+        }
+      }
+    }
+  }
+  .about-us-main{
+    background: white;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      @include padding-main;
+      .about-image{
+        width: 555px;
+        height: 555px;
+        img{
+          height: auto;
+          width: 100%;
+          background-size: cover;
+        }
+      }
+      .about-text{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 555px;
+        height: 555px;
+        // position: relative;
+
+        h1 {
+          text-align: left;
+          font-size: 35px;
+          color:$color-main;
+        }
+        p {
+          @include text-regular;
+          text-align: justify;
+          line-height: 1.8;
+        }
+        a.btn-services {
+          display: block;
+          background: $color-main;
+          color:white;
+          font-size: 14px;
+          width: 130px;
+          border: 1px solid $color-main;
+          line-height: 45px;
+        }
+        .btn-services:hover {
+          background: white;
+          color:$color-main;
+        }
+      }
+    }
+  }
+}
+section.work-with-us{
+  background: $bg-grey;
+  @include padding-main;;
+  @include shadow;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .property {
+      align-items: center;
+      position: relative;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      color:$text-color;
+      .icon {
+        height: 130px;
+        width: 130px;
+        border: 3px solid $color-main;
+        border-radius: 50%;
+      }
+      h3 {
+        margin-top: 28px;
+        margin-bottom: 20px;
+        font-size: 26px;
+      }
+      p {
+        @include text-regular;
+        font-size: 15px;
+      }
+    }
+  }
+}
+section.our-work {
+  @include shadow;
+  @include padding-main;
+  background: white;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    .our-work-clm{
+      width: 49%;
+      h2{
+        font-size: 35px;
+        color: $color-main;
+      }
+    }
+    .what-we-do{
+       p {
+         @include text-regular;
+         margin-top:35px;
+         text-align: justify;
+         line-height: 1.8;
+       }
+     }
+    .why-choose-us{
+      .selection-box{
+        margin-top: 40px;
+      .selection{
+        margin-top: 10px;
+        .select {
+          display: flex;
+          height: 62px;
+          border: 1px solid $bg-grey;
+          box-sizing: border-box;
+          .arrow{
+            text-align: center;
+            height: 62px;
+            width: 62px;
+            border-right: 1px solid $bg-grey;
+            display: flex;
+            i{
+              color: $color-main;
+              margin: auto;
+            }
+            .i-active{
+              transform: rotate(90deg);
+              color: $color-main;
+            }
+          }
+          .desc{
+            width: 100%;
+            display: flex;
+            h3{
+              color: $color-main;
+              margin: auto 12px;
+            }
+            }
+            .desc-active{
+              background: $bg-grey;
+            }
+          }
+          p{
+            padding: 20px;
+            display: none;
+          }
+          .p-active{
+            display: block;
+            border: 1px solid $bg-grey;
+          }
+        }
+        }
+      }
+    }
+  }
+section.cl{
+  @include shadow;
+  background: $bg-grey;
+      @include padding-main;
+  .container{
+    display: flex;
+    flex-direction: column;
+    h2{
+      margin:auto;
+      font-size: 35px;
+      color: $text-color;
+    }
+    .cl-say{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 100%;
+      margin-top: 50px;
+      .cl-photo{
+        width:30%;
+        margin: 0 70px;
+        height: 135px;
+        width: 135px;
+        border: 3px solid $color-main;
+        border-radius: 50%;
+        img{
+          background-size: cover;
+        }
+      }
+        .cl-text{
+          width:70%;
+          height: auto;
+          text-align: justify;
+          border-left: 1px solid $color-main;
+          padding-left:15px;
+          @include text-regular;
+        }
+        p{
+          margin-top: 10px;
+        }
+    }
+  }
+}
+section.team{
+  @include padding-main;
+  .container{
+    display: flex;
+    flex-direction: column;
+    h2{
+      font-size: 35px;
+      color: $color-main;
+      text-align: left;
+    }
+    .team-members{
+      margin-top:50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    .team-member {
+      width: 24%;
+      img{
+      display: block;
+      width: 100%;
+      height: 360px;
+      background: $bg-grey;
+      background-size: cover;
+      }
+      h3{
+        margin-top:22px;
+        font-size: 24px;
+      }
+      h4{
+        font-size: 13px;
+      }
+    }
+    }
+  }
+}

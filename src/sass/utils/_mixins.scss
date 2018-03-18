@@ -3,3 +3,11 @@
   font-size: 14px;
   color: $text-color;
 }
+
+@mixin shadow {
+  box-shadow: 0 1px 5px black;
+}
+@mixin padding-main {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
