@@ -1,0 +1,199 @@
+section.blog-window{
+  .container{
+  display: flex;
+  justify-content: space-between;
+  .main-blog-content{
+    @include padding-main;
+    width: 730px;
+    article.blog-post{
+      text-align: justify;
+      padding-bottom:80px;
+    .blog-image{
+      position: relative;
+      img{
+        // background-size: cover;
+        background: $bg-grey;
+        height: 350px;
+        display: block;
+        width: 100%;
+      }
+      .blog-date{
+        bottom: 40px;
+        left:0;
+        position: absolute;
+        height: 70px;
+        width: 115px;
+        background: $color-main;
+        font-size: 14px;
+        text-align: left;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h4{
+          width: 90%;
+          color: white;
+        }
+      }
+    }
+    .title{
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 35px;
+      color: $text-color;
+    }
+    p{
+      @include text-regular;
+      margin-top: 20px;
+    }
+    .blog-btn{
+      margin-top:20px;
+      float: right;
+      font-size: 14px;
+      height: 40px;
+      width: 145px;
+      background: $color-main;
+      color: white;
+      display: flex;
+      a{
+        margin: auto;
+      }
+    }
+    }
+    .blog-page-nr{
+      ul{
+        color: $text-color;
+        display: flex;
+        justify-content: flex-end;
+        li{
+          height: 26px;
+          width: 26px;
+          border: 1px solid $text-color;
+          display: flex;
+          align-items: center;
+          margin-left:5px;
+          a{
+          margin: auto;
+          }
+        }
+        .next{
+          color: white;
+          background: $color-main;
+        }
+      }
+    }
+  }
+  aside{
+    width: 360px;
+    @include padding-main;
+    .search-box{
+      position: relative;
+      .search{
+        background: $bg-grey;
+        width: 100%;
+        border: none;
+        height: 42px;
+        padding:0 15px;
+        font-style:italic;
+      }
+
+      .icon{
+        position: absolute;
+        color: grey;
+        top: 50%;
+        right:15px;
+        transform: translate( 0,-50%);
+        margin-left: 17px;
+      }
+    }
+    .recent-posts{
+      padding-top:30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+      .post-title{
+        font-size: 24px;
+        font-weight: bold;
+        color: $text-color;
+      }
+      .recent-post{
+        display: flex;
+        flex-direction: row;
+        font-size:14px;
+        padding-top:30px;
+        color: $text-color;
+        .recent-post-image{
+          width: 30%;
+          height: 80px;
+          // width: 80px;
+          img{
+            height: 80px;
+            width: 80px;
+            display: block;
+            background: $color-main;
+          }
+        }
+        ul.recent-post-text{
+          li{
+            padding: 10px 10px;
+          }
+          li a:hover{
+            color:$color-main;
+          }
+        }
+      }
+    }
+    .latestprojects{
+      padding-top:30px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      .post-title{
+        font-size: 24px;
+        font-weight: bold;
+        color: $text-color;
+      }
+      .latest-projects-box{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        .latest-project{
+          margin-top: 30px;
+          width: 165px;
+          height: 165px;
+          background: $color-main;
+          img{
+            width: 100%;
+            background-size: cover;
+            display: block;
+
+          }
+        }
+      }
+    }
+    .blog-categories{
+      padding-top:30px;
+      text-align: left;
+      .post-title{
+        font-size: 24px;
+        font-weight: bold;
+        color: $text-color;
+      }
+      ul li{
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 20px;
+        &:hover{
+          color:$color-main;
+        }
+        i{
+          color:$color-main;
+          margin-right: 5px;
+        }
+      }
+
+    }
+  }
+}
+}

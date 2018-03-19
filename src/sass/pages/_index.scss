@@ -47,7 +47,7 @@ section.slide-show{
     }
   }
 section.features {
-  @include padding-main;
+  padding-top: 80px;
   background:  $color-main;
   @include shadow;
   .container{
@@ -56,12 +56,14 @@ section.features {
     justify-content: space-between;
   }
   .block {
+    padding-bottom: 80px;
     // border: 1px dashed black;
     width: 26%;
+
     @include mobile {
-      width: 90%;
-      margin: auto;
-    };
+    width: 90%;
+    margin: auto;
+  }
     .fa-wrench {
       font-size: 50px;
       color:white;

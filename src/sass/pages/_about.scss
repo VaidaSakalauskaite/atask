@@ -1,4 +1,4 @@
-section.about-us {
+section.about-us, .page-header {
   background:$color-main;
   @include shadow;
   .container{
@@ -8,8 +8,9 @@ section.about-us {
       line-height: 67px;
       display: flex;
       justify-content: space-between;
-      h2{
+      h1{
         color: white;
+        font-size: 20px;
       }
       .nav-path{
         a:hover {
@@ -176,7 +177,7 @@ section.our-work {
 section.cl{
   @include shadow;
   background: $bg-grey;
-      @include padding-main;
+  @include padding-main;
   .container{
     display: flex;
     flex-direction: column;
@@ -245,6 +246,7 @@ section.team{
         font-size: 24px;
       }
       h4{
+        padding-top: 10px;
         font-size: 13px;
       }
     }

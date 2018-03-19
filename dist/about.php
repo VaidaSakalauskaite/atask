@@ -3,10 +3,10 @@
 <?php  include 'components/head.php'  ?>
 <body>
 <?php include 'components/header.php' ?>
-<section class="about-us">
+<section class="about-us page-header">
   <div class="container">
     <div class="about-us-header">
-      <h2>ABOUT US</h2>
+      <h1>ABOUT US</h1>
       <div class="nav-path">
         <a href="index.php">Home </a> >
         <a href="about.php">About Us</a>

@@ -1,0 +1,88 @@
+section.submit-comment{
+  .share-with{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    h3{
+      color: $color-main;
+      font-size: 14px;
+      font-weight: bolder;
+      margin-right: 15px;
+    }
+    .sc-media{
+      color: white;
+      font-size: 14px;
+      align-self: center;
+      line-height: 35px;
+      width: 100px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    .facebook{
+      background: indigo;
+    }
+    .twitter{
+      background: blue;
+    }
+    .google {
+      background: red;
+    }
+    .instagram{
+      background: brown;
+    }
+  }
+  .comment{
+    margin-top:30px;
+    text-align: left;
+    h2{
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $color-main;
+    }
+    p{
+      font-size: 14px;
+      color:$text-color;
+      line-height: 1.5;
+      span{
+        color:red;
+        font-size: 20px;
+      }
+    }
+    .user-contacts{
+      margin-top:30px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .user-data{
+        font-size: 14px;
+        width: 26%;
+        padding: 12px 0 12px 15px;
+      }
+    }
+    .blog-user-comment{
+      margin-top:20px;
+      .user-comment{
+        height: 170px;
+        width: 100%;
+        font-size: 14px;
+        padding: 12px 0 12px 15px;
+        box-sizing: border-box;
+      }
+    }
+    button{
+      margin-top: 20px;
+      font-size: 14px;
+      padding: 12px 15px;
+      border: none;
+      background: $color-main;
+      color:white;
+      &:hover{
+        background: $text-color;
+      }
+    }
+  }
+}

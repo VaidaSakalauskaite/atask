@@ -6,6 +6,8 @@ body {
 .container {
   max-width: 1130px;
   margin: auto;
+  padding: 0 5px;
+  box-sizing: border-box;
 }
 a{
   text-decoration: none;
@@ -19,4 +21,7 @@ a{
 }
 button {
   cursor: pointer;
+}
+h2 h3{
+  color: $text-color;
 }

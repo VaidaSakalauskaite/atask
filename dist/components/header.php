@@ -27,7 +27,7 @@
          <li> <a href="about.php">ABOUT US</a></li>
          <li> <a href="#">PAGES</a></li>
          <li> <a href="#">PROJECTS</a></li>
-         <li> <a href="#">BLOG</a></li>
+         <li> <a href="blog.php">BLOG</a></li>
          <li> <a href="#">CONTACT US</a></li>
        </ul>
      </nav>
