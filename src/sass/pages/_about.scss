@@ -26,8 +26,8 @@ section.about-us, .page-header {
       justify-content: space-between;
       @include padding-main;
       .about-image{
-        width: 555px;
-        height: 555px;
+        width: 49%;
+        // height: 555px;
         img{
           height: auto;
           width: 100%;
@@ -38,8 +38,8 @@ section.about-us, .page-header {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        width: 555px;
-        height: 555px;
+        width: 49%;
+        // height: 555px;
         // position: relative;
 
         h1 {

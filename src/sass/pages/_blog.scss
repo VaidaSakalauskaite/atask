@@ -137,6 +137,9 @@ section.blog-window{
         ul.recent-post-text{
           li{
             padding: 10px 10px;
+            a{
+              font-weight: bold;
+            }
           }
           li a:hover{
             color:$color-main;

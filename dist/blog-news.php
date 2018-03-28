@@ -109,7 +109,7 @@
               <input type="text" class="website user-data" placeholder="Website">
             </div>
             <div class="blog-user-comment">
-              <input type="text" class="user-comment" placeholder="Your comment">
+              <textarea type="text" class="user-comment" placeholder="Your comment"></textarea>
             </div>
             <button type="submit" class="submit-comment">SUBMIT COMMENT</button>
           </div>

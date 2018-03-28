@@ -19,18 +19,21 @@
  </div>
  <div class="bottom-menu">
    <div class="container">
-    <img src="img/logo.png" alt="">
+    <img class="logo" src="img/logo.png" alt="">
      <!-- <div class="logo" alt="Constration"></div> -->
-     <nav>
-       <ul>
-         <li> <a href="index.php">HOME</a></li>
-         <li> <a href="about.php">ABOUT US</a></li>
-         <li> <a href="#">PAGES</a></li>
-         <li> <a href="#">PROJECTS</a></li>
-         <li> <a href="blog.php">BLOG</a></li>
-         <li> <a href="#">CONTACT US</a></li>
-       </ul>
-     </nav>
+     <!-- <div class="container"> -->
+       <nav>
+         <ul>
+           <li> <a href="index.php">HOME</a></li>
+           <li> <a href="about.php">ABOUT US</a></li>
+           <!-- <li> <a href="#">PAGES</a></li>
+           <li> <a href="#">PROJECTS</a></li> -->
+           <li> <a href="blog.php">BLOG</a></li>
+           <li> <a href="contact.php">CONTACT US</a></li>
+         </ul>
+         <i class="fa fa-bars"></i>
+       </nav>
+     <!-- </div> -->
    </div>
  </div>
  <div class="clearfix"></div>

@@ -1,0 +1,47 @@
+section.contact-us{
+  @include padding-main;
+  .container{
+    h2{
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      color:$color-main;
+    }
+    .line{
+      display: block;
+      width: 68px;
+      border: 1px solid $color-main;
+      margin-top: 10px;
+    }
+    .input-area{
+      margin-top: 25px;
+      display: flex;
+      // flex-wrap: wrap;
+      justify-content: space-between;
+      font-size: 14px;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .input{
+      margin-top:25px;
+      line-height: 45px;
+      width: 46%;
+      padding: 0 15px;
+    }
+    textarea{
+      margin-top:30px;
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid lightgrey;
+      padding: 5px 15px;
+    }
+    .btn-send{
+      padding: 10px 20px;
+      background: $color-main;
+      color: white;
+      border: none;
+      margin-top:30px;
+      font-size: 14px;
+    }
+  }
+}

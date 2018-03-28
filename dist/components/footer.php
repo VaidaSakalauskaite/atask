@@ -44,7 +44,8 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <p>Made with 💚 by Vaida Sakalauskaite. All Rights Reserved</p>
+    <p>Made with 💚 by Vaida Sakalauskaite.</p>
   </div>
 </footer>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script src="js/script.js"></script>
